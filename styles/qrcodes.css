@@ -1,0 +1,15 @@
+body #qrcodes-container {
+	display: block;
+	position: absolute;
+	z-index: 999999;
+}
+
+.admin-bar #qrcodes-container {
+	margin-top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+	.admin-bar #qrcodes-container {
+		margin-top: 46px;
+	}
+}
